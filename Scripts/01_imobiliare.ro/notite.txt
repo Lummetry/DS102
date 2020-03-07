@@ -1,0 +1,22 @@
+y = Ax
+x - vector - linie din df
+X - matrice
+
+y - vector - tensor unidimensional
+
+A	- de gasit
+	- parametrii modelului
+A - tensor unidimensional
+
+y = XA
+X - (m x n)
+A - (n x 1)
+y - (m x 1)
+
+A = y/X ?
+A = y * (X^{-1})
+
+X^T y = X^T XA
+(X^T X)^{-1} X^T y = (X^T X)^{-1} (X^T X) A
+(X^T X)^{-1} X^T y = I * A
+A = (X^T X)^{-1} X^T y
